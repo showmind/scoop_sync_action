@@ -26,6 +26,7 @@ jobs:
         dst: gitee/scoop_mirror
         dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
         dst_token: ${{ secrets.GITEE_TOKEN }}
+        account_type: "org"
         static_list: "scoop"
         clone_style: "https"
         force_update: true
