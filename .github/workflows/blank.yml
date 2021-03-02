@@ -27,7 +27,7 @@ jobs:
         dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
         dst_token: ${{ secrets.GITEE_TOKEN }}
         account_type: "user"
-        static_list: "hub-mirror-action"
+        static_list: "scoop"
         clone_style: "ssh"
         force_update: true
         debug: true
