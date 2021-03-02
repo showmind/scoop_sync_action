@@ -28,7 +28,7 @@ jobs:
         dst_token: ${{ secrets.GITEE_TOKEN }}
         account_type: "user"
         static_list: "scoop"
-        clone_style: "ssh"
+        clone_style: "https"
         force_update: true
         debug: true
   
