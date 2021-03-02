@@ -23,7 +23,7 @@ jobs:
       uses: Yikun/hub-mirror-action@v0.13
       with:
         src: github.com/lukesampson
-        dst: gitee/scoop_mirror
+        dst: gitee/zawhyx
         dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
         dst_token: ${{ secrets.GITEE_TOKEN }}
         account_type: org
